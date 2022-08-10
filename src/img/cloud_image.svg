@@ -1,0 +1,5 @@
+<svg width="512" height="386" viewBox="0 0 512 386" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M512 193C512 86.409 425.591 0 319 0V0C212.409 0 126 86.409 126 193V210.917C126 307.612 204.388 386 301.083 386H319C425.591 386 512 299.591 512 193V193Z" fill="#F2F8FF"/>
+<ellipse rx="79" ry="79.5" transform="matrix(-1 0 0 1 79 266.5)" fill="#F2F8FF"/>
+<ellipse rx="79" ry="79.5" transform="matrix(-1 0 0 1 127 148.5)" fill="#F2F8FF"/>
+</svg>

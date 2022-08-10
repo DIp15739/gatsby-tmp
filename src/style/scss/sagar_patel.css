@@ -1,0 +1,118 @@
+/* Estimate project page */
+
+.estimation-project .cloud-image {
+  position: absolute;
+  left: -1%;
+  z-index: -1;
+  bottom: 30%;
+}
+.estimation-project .cloud-image img{
+  max-width: 450px;
+  width: 100%;
+  object-fit: contain;
+}
+.estimation-project .post-img img{
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.dropdown-setting {
+  height: 110px !important;
+  border: 2px dotted var(--bs-blue) !important;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.dropdown-setting .dz-message {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.estimation-project .dz-button {
+  background-color: var(--bs-blue) !important;
+  border: none;
+  outline: none;
+  font-size: 14px !important;
+  border-radius: 50px;
+  padding: 8px 25px;
+  position: relative;
+}
+
+.estimation-project .dz-button::before {
+  font-family: uicons-regular-rounded !important;
+  content: "\f1c8";
+  font-size: 20px;
+  height: 10px;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#animation-container {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+#animation-container .animation svg {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.estimation-project .form-wrap .form-check .form-check-input:checked + label {
+  background: #cee2ff;
+  border: 1px solid var(--primary-heading);
+  color: var(--primary-heading);
+}
+
+.about-us-page-custom {
+  background: var(--sky-blue);
+  padding-bottom: 80px !important;
+  padding-top: 0px ;
+  background-position: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  height: 85vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.about-us-page-custom .heading-setting{
+  text-align: left;
+}
+.about-section-hero-img {
+  /* position: absolute;
+  left: 50%;
+  top: 14%;
+  bottom: 0; */
+  /* transform: translateX(-50%); */
+  position: relative;
+  text-align: right;
+  /* top: 62px;
+  text-align: right;
+  right: 62px; */
+}
+/* .about-us-page-custom .row .col-lg-6:first-child{
+  padding-left: 0;
+} */
+
+.about-section-hero-img img {
+  width: 95%;
+}
+.fa-cloud-upload{
+  margin-right: 5px;
+}
+.about-us-page-custom .row{
+  display: flex;
+  align-items: center;
+}

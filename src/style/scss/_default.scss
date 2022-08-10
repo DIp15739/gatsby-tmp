@@ -1,0 +1,237 @@
+:root {
+  --paragraph: #838da8;
+  // --primary-heading: #00005c;
+    --primary-heading: #0A1158; 
+  --heading-span-first: #ff5670;
+  // --heading-span-second: #3c50e0;
+  --heading-span-second: #0231C8;
+  --heading-span-third: #fdb400;
+  --btn-outline-primary: #3c50e0;
+  --blue-3d58bf: #3d58bf;
+  // --bs-blue: #3c50e0;
+  --bs-blue: #0231C8;
+  --sky-blue: #eef5ff;
+  --white: #ffffff;
+  --gray-ccc: #cccccc;
+  --black: #000000;
+  --black-light: #242230;
+  --light-gray: #b7c0ff;
+  --gray-aaaaaa: #aaaaaa;
+  --gray-f7f4fd: #f7f4fd;
+  --blue-color:#7792ff;
+  --black-overlay: rgba(0, 0, 0, 0.2);
+  --font-inter: "Inter", sans-serif;
+
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  body {
+    font-family: var(--font-inter);
+    font-size: 16px;
+    line-height: 26.4px;
+    color: var(--paragraph);
+    overflow-x: hidden !important;
+    padding-top: 117px !important;
+    i {
+      line-height: 0.8;
+      vertical-align: middle;
+    }
+    p {
+      font-size: 16px;
+      line-height: 26.4px;
+      letter-spacing: 0.2px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.hero-heading {
+  color: var(--primary-heading);
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 59px;
+  margin-left: 0;
+  margin-bottom: 27px;
+  line-height: 65px;
+}
+
+.section-main-title {
+  color: var(--primary-heading);
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  font-size: 63px;
+  margin-left: 0;
+}
+
+.sub-title {
+  font-size: 36px;
+  line-height: 50px;
+  color: var(--primary-heading);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.pink-span {
+  color: var(--heading-span-first);
+}
+
+.blue-span {
+  color: var(--heading-span-second);
+}
+
+.yellow-span {
+  color: var(--heading-span-third);
+}
+
+.bg-blue {
+  background-color: var(--primary-heading);
+}
+
+.card-heading {
+  align-self: center;
+  margin: 0 !important;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.section-main-para {
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  line-height: 31.4px;
+}
+
+.custom-primary-btn {
+  padding: 15px 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  box-shadow: 8px 9px 15px 0px var(--black-overlay);
+  transition: all 0.3s ease-out;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p,
+h1 {
+  margin-bottom: 20px;
+}
+
+.text-primary {
+  color: var(--primary-heading)!important;
+}
+
+.bg-gray {
+  background-color: var(--sky-blue);
+}
+
+.btn-ouline {
+  border-radius: 50px;
+  padding: 16px 28px;
+  font-weight: 500;
+  border-width: 1.5px;
+  i {
+    vertical-align: middle;
+    margin-left: 3px;
+    font-size: 20px;
+    transition: all 0.1s ease-in;
+  }
+}
+.btn-primary {
+  background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
+  &:hover {
+    background-color: #2d3fca;
+    border-color: #2d3fca;
+  }
+}
+.btn-ouline-sm {
+  border-radius: 50px;
+  padding: 8px 25px;
+  font-weight: 500;
+  border-width: 1.5px;
+}
+.btn-outline-primary {
+  border-color: var(--heading-span-second);
+  color: var(--heading-span-second);
+  &:hover {
+    border-color: var(--heading-span-second);
+    background-color: var(--heading-span-second);
+  }
+}
+
+.btn-check {
+  &:active {
+    + {
+      .btn-outline-light {
+        border-color: var(--white);
+        color: var(--white);
+      }
+    }
+  }
+  &:checked {
+    + {
+      .btn-outline-light {
+        border-color: var(--white);
+        color: var(--white);
+      }
+    }
+  }
+}
+
+.btn-outline-light {
+  &.active {
+    border-color: var(--white);
+    color: var(--white);
+  }
+  &:hover {
+    color: var(--primary-heading);
+  }
+}
+
+.btn-outline-dark-primary {
+  border-color: var(--primary-heading);
+  color: var(--primary-heading);
+  &:hover {
+    color: var(--white);
+    background-color: var(--primary-heading);
+  }
+}
+
+.btn-outline-light.dropdown-toggle.show {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.btn-outline-light {
+  &:active {
+    border-color: var(--white);
+    color: var(--white);
+  }
+}
+
+.btn-outline-light-fill {
+  background-color: var(--white);
+  color: var(--bs-blue);
+}
+
+.com-section {
+  padding: 100px 0;
+  position: relative;
+}
+.com-section-sec {
+  padding: 0 0 100px;
+  position: relative;
+}
